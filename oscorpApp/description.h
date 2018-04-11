@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  description.h
 //  oscorpApp
 //
 //  Created by Antonio Torres on 03/02/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface description : UIViewController
 
 @end
-
