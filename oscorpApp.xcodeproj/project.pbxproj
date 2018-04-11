@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A1CDCC3204935D0004A8165 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CDCB8204935CF004A8165 /* AFURLResponseSerialization.m */; };
+		7A1CDCC4204935D0004A8165 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CDCBA204935CF004A8165 /* AFURLSessionManager.m */; };
+		7A1CDCC5204935D0004A8165 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CDCBB204935CF004A8165 /* AFHTTPSessionManager.m */; };
+		7A1CDCC6204935D0004A8165 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CDCBC204935CF004A8165 /* AFNetworkReachabilityManager.m */; };
+		7A1CDCC7204935D0004A8165 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CDCC1204935CF004A8165 /* AFURLRequestSerialization.m */; };
+		7A1CDCC8204935D0004A8165 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A1CDCC2204935D0004A8165 /* AFSecurityPolicy.m */; };
 		7A4EED2620267BED0069D00C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EED2520267BED0069D00C /* AppDelegate.m */; };
-		7A4EED2920267BED0069D00C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EED2820267BED0069D00C /* ViewController.m */; };
 		7A4EED2C20267BED0069D00C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4EED2A20267BED0069D00C /* Main.storyboard */; };
 		7A4EED2E20267BED0069D00C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A4EED2D20267BED0069D00C /* Assets.xcassets */; };
 		7A4EED3120267BED0069D00C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A4EED2F20267BED0069D00C /* LaunchScreen.storyboard */; };
 		7A4EED3420267BED0069D00C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EED3320267BED0069D00C /* main.m */; };
 		7A4EED3E20267BED0069D00C /* oscorpAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EED3D20267BED0069D00C /* oscorpAppTests.m */; };
 		7A4EED4920267BED0069D00C /* oscorpAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EED4820267BED0069D00C /* oscorpAppUITests.m */; };
+		7A4EED58202682EE0069D00C /* description.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A4EED57202682EE0069D00C /* description.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,11 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1CDCB6204935CF004A8165 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		7A1CDCB7204935CF004A8165 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		7A1CDCB8204935CF004A8165 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		7A1CDCB9204935CF004A8165 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		7A1CDCBA204935CF004A8165 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		7A1CDCBB204935CF004A8165 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		7A1CDCBC204935CF004A8165 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		7A1CDCBD204935CF004A8165 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		7A1CDCBE204935CF004A8165 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		7A1CDCBF204935CF004A8165 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		7A1CDCC0204935CF004A8165 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		7A1CDCC1204935CF004A8165 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		7A1CDCC2204935D0004A8165 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
 		7A4EED2120267BED0069D00C /* oscorpApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = oscorpApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4EED2420267BED0069D00C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A4EED2520267BED0069D00C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A4EED2720267BED0069D00C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A4EED2820267BED0069D00C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7A4EED2B20267BED0069D00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A4EED2D20267BED0069D00C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A4EED3020267BED0069D00C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +68,8 @@
 		7A4EED4420267BED0069D00C /* oscorpAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = oscorpAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4EED4820267BED0069D00C /* oscorpAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = oscorpAppUITests.m; sourceTree = "<group>"; };
 		7A4EED4A20267BED0069D00C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A4EED56202682EE0069D00C /* description.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = description.h; sourceTree = "<group>"; };
+		7A4EED57202682EE0069D00C /* description.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = description.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +97,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7A1CDCB5204935B4004A8165 /* AFNetworkingg */ = {
+			isa = PBXGroup;
+			children = (
+				7A1CDCBE204935CF004A8165 /* AFHTTPSessionManager.h */,
+				7A1CDCBB204935CF004A8165 /* AFHTTPSessionManager.m */,
+				7A1CDCB7204935CF004A8165 /* AFNetworking.h */,
+				7A1CDCB6204935CF004A8165 /* AFNetworkReachabilityManager.h */,
+				7A1CDCBC204935CF004A8165 /* AFNetworkReachabilityManager.m */,
+				7A1CDCBD204935CF004A8165 /* AFSecurityPolicy.h */,
+				7A1CDCC2204935D0004A8165 /* AFSecurityPolicy.m */,
+				7A1CDCBF204935CF004A8165 /* AFURLRequestSerialization.h */,
+				7A1CDCC1204935CF004A8165 /* AFURLRequestSerialization.m */,
+				7A1CDCC0204935CF004A8165 /* AFURLResponseSerialization.h */,
+				7A1CDCB8204935CF004A8165 /* AFURLResponseSerialization.m */,
+				7A1CDCB9204935CF004A8165 /* AFURLSessionManager.h */,
+				7A1CDCBA204935CF004A8165 /* AFURLSessionManager.m */,
+			);
+			name = AFNetworkingg;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		7A4EED1820267BED0069D00C = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +141,11 @@
 		7A4EED2320267BED0069D00C /* oscorpApp */ = {
 			isa = PBXGroup;
 			children = (
+				7A1CDCB5204935B4004A8165 /* AFNetworkingg */,
+				7A4EED56202682EE0069D00C /* description.h */,
+				7A4EED57202682EE0069D00C /* description.m */,
 				7A4EED2420267BED0069D00C /* AppDelegate.h */,
 				7A4EED2520267BED0069D00C /* AppDelegate.m */,
-				7A4EED2720267BED0069D00C /* ViewController.h */,
-				7A4EED2820267BED0069D00C /* ViewController.m */,
 				7A4EED2A20267BED0069D00C /* Main.storyboard */,
 				7A4EED2D20267BED0069D00C /* Assets.xcassets */,
 				7A4EED2F20267BED0069D00C /* LaunchScreen.storyboard */,
@@ -265,9 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A4EED2920267BED0069D00C /* ViewController.m in Sources */,
+				7A1CDCC4204935D0004A8165 /* AFURLSessionManager.m in Sources */,
+				7A1CDCC8204935D0004A8165 /* AFSecurityPolicy.m in Sources */,
 				7A4EED3420267BED0069D00C /* main.m in Sources */,
 				7A4EED2620267BED0069D00C /* AppDelegate.m in Sources */,
+				7A1CDCC6204935D0004A8165 /* AFNetworkReachabilityManager.m in Sources */,
+				7A1CDCC5204935D0004A8165 /* AFHTTPSessionManager.m in Sources */,
+				7A1CDCC3204935D0004A8165 /* AFURLResponseSerialization.m in Sources */,
+				7A4EED58202682EE0069D00C /* description.m in Sources */,
+				7A1CDCC7204935D0004A8165 /* AFURLRequestSerialization.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,8 +480,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q49D7QMF5;
 				INFOPLIST_FILE = oscorpApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = antoniotrrs.oscorp.oscorpApp;
+				PRODUCT_BUNDLE_IDENTIFIER = antoniotrrs.oscorp.oscorp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -447,8 +495,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2Q49D7QMF5;
 				INFOPLIST_FILE = oscorpApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = antoniotrrs.oscorp.oscorpApp;
+				PRODUCT_BUNDLE_IDENTIFIER = antoniotrrs.oscorp.oscorp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
